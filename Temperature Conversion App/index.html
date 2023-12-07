@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Temperature Converter</h2>
+        <form action="convert.php" method="post">
+            <input type="number" name="temperature" placeholder="Enter temperature" required>
+            <select name="unit">
+                <option value="CtoF">Celsius to Fahrenheit</option>
+                <option value="FtoC">Fahrenheit to Celsius</option>
+            </select>
+            <input type="submit" value="Convert">
+        </form>
+    </div>
+</body>
+</html>
